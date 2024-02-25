@@ -1,0 +1,13 @@
+class ReverseNum
+{
+ public static void main(String args[]);
+ {
+ int number, q, r, ans;
+ nuber=Integer.parseInt(args[0]);
+ q=number/10;
+ r=number%10l
+ ans=r*10+q;
+ System.out.print("the reverse number is = "+ans);
+
+ }
+}

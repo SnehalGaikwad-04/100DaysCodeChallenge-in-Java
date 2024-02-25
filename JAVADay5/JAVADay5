@@ -1,0 +1,8 @@
+class StringDemo
+{
+ public static vaoid main(String args[])
+ {
+ String name1=args[0];
+ System.out.println("Hello "+name1);
+ }
+}

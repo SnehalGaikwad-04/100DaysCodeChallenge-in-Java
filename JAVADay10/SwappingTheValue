@@ -1,0 +1,17 @@
+class SwapNum
+{
+ public static void main (String args[])
+ {
+ int num1,num2,c;
+ num1=Integer.parseInt(args[0]);
+ num2=Integer.parseInt(args[1]);
+ System.out.print("before swapping number1 = "+num1);
+ System.out.print("before swapping number2 = "+num2);
+ c=num1;
+ num1=num2;
+ num2=c;
+ System.out.print("after swapping number1 = "+num1);
+ System.out.print("after swapping number2 = "+num2);
+ 
+ }
+}

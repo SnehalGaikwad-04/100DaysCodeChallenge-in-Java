@@ -1,0 +1,12 @@
+class Temperature
+{
+ public static void main(String args[])
+ {
+ float fahrenheit,digit;
+ int celsius;
+ celcius=Integer.parseInt(args[0]);
+ digit=1.8f;
+ fahrenheit=celsius*digit+32;
+ System.out.print("the temperature in fahrenheit "+fahrenheit);
+ }
+}
